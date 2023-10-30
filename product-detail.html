@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">
+    <title>Goodmeat - Product Detail</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/public/images/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <nav class="menu-nav-1">
+            <div class="menu-nav-item">
+                <img width="30" height="30" src="public/images/ph-phone-call.png" alt="Icone de Telefone">
+                <span class="menu">+123-234-1234</span>
+            </div>
+            <div class="menu-nav-item">
+                <img width="30" height="30" src="public/images/mdi-map-marker-radius.png" alt="Icone de Localização">
+                <span class="menu">99 Roving St., Big City, PKU 23456</span>
+            </div>
+            <div class="menu-nav-item">
+                <a href="https://www.facebook.com/" target="_blank">
+                    <img class="icons-social-media-menu" width="15" height="15"
+                        src="public/images/ic-outline-facebook.png" alt="Icone do Facebook">
+                </a>
+                <a href="https://twitter.com/" target="_blank">
+                    <img class="icons-social-media-menu" width="15" height="15" src="public/images/ri-twitter-fill.png"
+                        alt="Icone do Twitter">
+                </a>
+                <a href="https://www.instagram.com/" target="_blank">
+                    <img class="icons-social-media-menu" width="15" height="15" src="public/images/mdi-instagram.png"
+                        alt="Icone do Instagram">
+                </a>
+                <a href="https://www.youtube.com/" target="_blank">
+                    <img class="icons-social-media-menu" width="15" height="15" src="public/images/mdi-youtube.png"
+                        alt="Icone do Youtube">
+                </a>
+            </div>
+        </nav>
+        <div class="line-menu-nav"></div>
+        <nav class="menu-nav-2">
+            <div class="menu-nav-item">
+                <img width="190" height="50" src="public/images/logo-goodmeat.png" alt="Logo da GoodMeat">
+            </div>
+            <div id="menu-top-items" class="menu-nav-item">
+                <ul class="menu-links">
+                    <li>
+                        <a class="menu" href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a class="menu" href="about-us.html">About Us</a>
+                    </li>
+                    <li>
+                        <a class="menu menu-dropdown-icon" href="our-product.html">
+                            Product
+                            <img width="20" height="20" src="public/images/ri-arrow-up-s-line.png"
+                                alt="Icone menu dropdown">
+                        </a>
+                    </li>
+                    <li>
+                        <a class="menu menu-dropdown-icon" href="#">
+                            Pages
+                            <img width="20" height="20" src="public/images/ri-arrow-up-s-line.png"
+                                alt="Icone menu dropdown">
+                        </a>
+                    </li>
+                    <li>
+                        <a class="menu menu-dropdown-icon" href="our-blog.html">
+                            Blog
+                            <img width="20" height="20" src="public/images/ri-arrow-up-s-line.png"
+                                alt="Icone menu dropdown">
+                        </a>
+                    </li>
+                    <li>
+                        <a class="menu" href="contact-us.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <div id="menu-top-button" class="menu-nav-item">
+                <a href="#" target="_self">
+                    <span class="button-red">ORDER INLINE</span>
+                </a>
+            </div>
+            <button class="btn-icon-header">
+                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-list"
+                    viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                </svg>
+            </button>
+        </nav>
+    </header>
+    <main>
+        <section class="banner-pages">
+            <div class="banner-pages-container">
+                <h2>Product Detail</h2>
+                <span class="menu">
+                    <a href="/index.html" target="_self">Home</a> / <a href="/product-detail.html"
+                        target="_self">Product Detail</a>
+                </span>
+            </div>
+        </section>
+        <section class="product-detail">
+            <div class="product-detail-container">
+                <h3>Beef Meat</h3>
+                <nav>
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path
+                                d="M1.875 10.625V10C1.875 9.50272 2.07254 9.02581 2.42417 8.67417C2.77581 8.32254 3.25272 8.125 3.75 8.125H16.25C16.7473 8.125 17.2242 8.32254 17.5758 8.67417C17.9275 9.02581 18.125 9.50272 18.125 10V10.625M10.8833 5.25833L9.11667 3.49167C9.0006 3.37546 8.86278 3.28327 8.71107 3.22035C8.55936 3.15744 8.39674 3.12504 8.2325 3.125H3.75C3.25272 3.125 2.77581 3.32254 2.42417 3.67417C2.07254 4.02581 1.875 4.50272 1.875 5V15C1.875 15.4973 2.07254 15.9742 2.42417 16.3258C2.77581 16.6775 3.25272 16.875 3.75 16.875H16.25C16.7473 16.875 17.2242 16.6775 17.5758 16.3258C17.9275 15.9742 18.125 15.4973 18.125 15V7.5C18.125 7.00272 17.9275 6.52581 17.5758 6.17417C17.2242 5.82254 16.7473 5.625 16.25 5.625H11.7675C11.4361 5.62471 11.1175 5.49282 10.8833 5.25833Z"
+                                stroke="#D9A273" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <p>Product</p>
+                    </div>
+                    <div>
+
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path
+                                d="M6.5 12C6.36739 12 6.24021 11.9473 6.14645 11.8536C6.05268 11.7598 6 11.6326 6 11.5C6 11.3674 6.05268 11.2402 6.14645 11.1464C6.24021 11.0527 6.36739 11 6.5 11H13.5C13.6326 11 13.7598 11.0527 13.8536 11.1464C13.9473 11.2402 14 11.3674 14 11.5C14 11.6326 13.9473 11.7598 13.8536 11.8536C13.7598 11.9473 13.6326 12 13.5 12H6.5ZM6.5 15C6.36739 15 6.24021 14.9473 6.14645 14.8536C6.05268 14.7598 6 14.6326 6 14.5C6 14.3674 6.05268 14.2402 6.14645 14.1464C6.24021 14.0527 6.36739 14 6.5 14H13.5C13.6326 14 13.7598 14.0527 13.8536 14.1464C13.9473 14.2402 14 14.3674 14 14.5C14 14.6326 13.9473 14.7598 13.8536 14.8536C13.7598 14.9473 13.6326 15 13.5 15H6.5Z"
+                                fill="#D9A273" />
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M11.185 1H4.5C4.10218 1 3.72064 1.15804 3.43934 1.43934C3.15804 1.72064 3 2.10218 3 2.5V17.5C3 17.8978 3.15804 18.2794 3.43934 18.5607C3.72064 18.842 4.10218 19 4.5 19H15.5C15.8978 19 16.2794 18.842 16.5607 18.5607C16.842 18.2794 17 17.8978 17 17.5V7.202C16.9999 6.82647 16.859 6.46464 16.605 6.188L12.291 1.486C12.1504 1.33275 11.9795 1.2104 11.7891 1.12673C11.5987 1.04307 11.393 0.99991 11.185 1ZM4 2.5C4 2.36739 4.05268 2.24022 4.14645 2.14645C4.24021 2.05268 4.36739 2 4.5 2H11.185C11.2544 1.99992 11.323 2.01429 11.3865 2.04218C11.4501 2.07007 11.5071 2.11087 11.554 2.162L15.868 6.864C15.9528 6.95616 15.9999 7.07678 16 7.202V17.5C16 17.6326 15.9473 17.7598 15.8536 17.8536C15.7598 17.9473 15.6326 18 15.5 18H4.5C4.36739 18 4.24021 17.9473 4.14645 17.8536C4.05268 17.7598 4 17.6326 4 17.5V2.5Z"
+                                fill="#D9A273" />
+                            <path
+                                d="M11 7H16.5C16.6326 7 16.7598 7.05268 16.8536 7.14645C16.9473 7.24021 17 7.36739 17 7.5C17 7.63261 16.9473 7.75979 16.8536 7.85355C16.7598 7.94732 16.6326 8 16.5 8H10.5C10.3674 8 10.2402 7.94732 10.1464 7.85355C10.0527 7.75979 10 7.63261 10 7.5V1.5C10 1.36739 10.0527 1.24021 10.1464 1.14645C10.2402 1.05268 10.3674 1 10.5 1C10.6326 1 10.7598 1.05268 10.8536 1.14645C10.9473 1.24021 11 1.36739 11 1.5V7Z"
+                                fill="#D9A273" />
+                        </svg>
+                        <p>Beef Meat</p>
+                    </div>
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path
+                                d="M15 13.4C14.3667 13.4 13.8 13.65 13.3667 14.0417L7.425 10.5834C7.46667 10.3917 7.5 10.2 7.5 10C7.5 9.80002 7.46667 9.60835 7.425 9.41669L13.3 5.99169C13.75 6.40835 14.3417 6.66669 15 6.66669C16.3833 6.66669 17.5 5.55002 17.5 4.16669C17.5 2.78335 16.3833 1.66669 15 1.66669C13.6167 1.66669 12.5 2.78335 12.5 4.16669C12.5 4.36669 12.5333 4.55835 12.575 4.75002L6.7 8.17502C6.25 7.75835 5.65833 7.50002 5 7.50002C3.61667 7.50002 2.5 8.61669 2.5 10C2.5 11.3834 3.61667 12.5 5 12.5C5.65833 12.5 6.25 12.2417 6.7 11.825L12.6333 15.2917C12.5917 15.4667 12.5667 15.65 12.5667 15.8334C12.5667 17.175 13.6583 18.2667 15 18.2667C16.3417 18.2667 17.4333 17.175 17.4333 15.8334C17.4333 14.4917 16.3417 13.4 15 13.4ZM15 3.33335C15.4583 3.33335 15.8333 3.70835 15.8333 4.16669C15.8333 4.62502 15.4583 5.00002 15 5.00002C14.5417 5.00002 14.1667 4.62502 14.1667 4.16669C14.1667 3.70835 14.5417 3.33335 15 3.33335ZM5 10.8334C4.54167 10.8334 4.16667 10.4584 4.16667 10C4.16667 9.54169 4.54167 9.16669 5 9.16669C5.45833 9.16669 5.83333 9.54169 5.83333 10C5.83333 10.4584 5.45833 10.8334 5 10.8334ZM15 16.6834C14.5417 16.6834 14.1667 16.3084 14.1667 15.85C14.1667 15.3917 14.5417 15.0167 15 15.0167C15.4583 15.0167 15.8333 15.3917 15.8333 15.85C15.8333 16.3084 15.4583 16.6834 15 16.6834Z"
+                                fill="#D9A273" />
+                        </svg>
+                        <p>Share</p>
+                    </div>
+                </nav>
+                <div class="product-details-blocks">
+                    <div class="product-details-left">
+                        <div class="product-details-image">
+                        </div>
+                        <p>Fusce varius leo et mauris accumsan, eget mollis mi aliquam. Quisque ultrices tortor sit amet
+                            est elementum, vitae viverra ligula varius. Curabitur quis elit quis odio cursus tincidunt
+                            ullamcorper non sem. Etiam a sem diam. Donec tincidunt finibus odio at convallis. Ut euismod
+                            vehicula accumsan. Nullam scelerisque ipsum et lacinia tincidunt. Ut blandit dapibus
+                            sodales. Nam a sapien a leo varius sagittis. Aliquam mollis lorem vehicula tellus aliquet,
+                            vel ultricies felis vulputate. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+                            Quisque eu orci sit amet nisl pellentesque faucibus mollis.</p>
+                        <h4>Cuts of Beef Meat</h4>
+                        <div class="product-details-mark-texts">
+                            <div>
+                                <div class="product-details-mark-text">
+                                    <img width="20" height="20" src="public/images/fa-6-regular-circle-dot.png" alt="">
+                                    <h5>Beef Chuck</h5>
+                                </div>
+                                <div class="product-details-mark-text">
+                                    <img width="20" height="20" src="public/images/fa-6-regular-circle-dot.png" alt="">
+                                    <h5>Beef Ribs</h5>
+                                </div>
+                                <div class="product-details-mark-text">
+                                    <img width="20" height="20" src="public/images/fa-6-regular-circle-dot.png" alt="">
+                                    <h5>Beef Loin</h5>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="product-details-mark-text">
+                                    <img width="20" height="20" src="public/images/fa-6-regular-circle-dot.png" alt="">
+                                    <h5>Beef Sirloin</h5>
+                                </div>
+                                <div class="product-details-mark-text">
+                                    <img width="20" height="20" src="public/images/fa-6-regular-circle-dot.png" alt="">
+                                    <h5>Beef Round</h5>
+                                </div>
+                                <div class="product-details-mark-text">
+                                    <img width="20" height="20" src="public/images/fa-6-regular-circle-dot.png" alt="">
+                                    <h5>Beef Brisket</h5>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="product-details-mark-text">
+                                    <img width="20" height="20" src="public/images/fa-6-regular-circle-dot.png" alt="">
+                                    <h5>Beef Short ribs</h5>
+                                </div>
+                                <div class="product-details-mark-text">
+                                    <img width="20" height="20" src="public/images/fa-6-regular-circle-dot.png" alt="">
+                                    <h5>Beef Plate</h5>
+                                </div>
+                                <div class="product-details-mark-text">
+                                    <img width="20" height="20" src="public/images/fa-6-regular-circle-dot.png" alt="">
+                                    <h5>Beef Flank</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-details-images">
+                            <div class="product-details-small-image">
+                            </div>
+                            <div class="product-details-small-image">
+                            </div>
+                            <div class="product-details-small-image">
+                            </div>
+                        </div>
+                        <p>Quisque ultrices tortor sit amet est elementum, vitae viverra ligula varius. Curabitur quis
+                            elit quis odio cursus tincidunt ullamcorper non sem. Etiam a sem diam. Donec tincidunt
+                            finibus odio at convallis. Ut euismod vehicula accumsan. Nullam scelerisque ipsum et lacinia
+                            tincidunt. Ut blandit dapibus sodales. Nam a sapien a leo varius sagittis.</p>
+                        <h4>Benefits of Eating Beef Meat</h4>
+                        <div class="product-details-mark-text">
+                            <img width="20" height="20" src="public/images/fa-6-regular-circle-dot.png" alt="">
+                            <p>Beef Provides a Great Source of L-Carnitine</p>
+                        </div>
+                        <div class="product-details-mark-text">
+                            <img width="20" height="20" src="public/images/fa-6-regular-circle-dot.png" alt="">
+                            <p>Beef Provides the “Master Antioxidant” Glutathione</p>
+                        </div>
+                        <div class="product-details-mark-text">
+                            <img width="20" height="20" src="public/images/fa-6-regular-circle-dot.png" alt="">
+                            <p>Beef is High in Protein and Helps Improve Muscle Mass</p>
+                        </div>
+                        <div class="product-details-mark-text">
+                            <img width="20" height="20" src="public/images/fa-6-regular-circle-dot.png" alt="">
+                            <p>Beef is Extremely Rich in Minerals</p>
+                        </div>
+                        <div class="product-details-mark-text">
+                            <img width="20" height="20" src="public/images/fa-6-regular-circle-dot.png" alt="">
+                            <p>Eating Beef Helps Prevent Iron Deficiency Anemia</p>
+                        </div>
+                        <div class="product-details-mark-text">
+                            <img width="20" height="20" src="public/images/fa-6-regular-circle-dot.png" alt="">
+                            <p>Beef Contains Carnosine, a Potent Amino Acid</p>
+                        </div>
+                        <div class="product-details-mark-text">
+                            <img width="20" height="20" src="public/images/fa-6-regular-circle-dot.png" alt="">
+                            <p>Beef Contains the Performance Enhancer Creatine</p>
+                        </div>
+                        <p style="padding-top: 17px;">Phasellus consequat eros imperdiet tempor dapibus. Nulla facilisi.
+                            Nam laoreet tempor gravida. Donec id est diam. Nullam ipsum ex, faucibus et mauris in,
+                            eleifend vestibulum ex. Ut et lacus metus. Nunc interdum elit ut neque viverra aliquet ut eu
+                            urna. Quisque convallis, tellus vel congue cursus, est orci consequat purus, ut sollicitudin
+                            eros nunc a dui.</p>
+                    </div>
+                    <div class="product-details-right">
+                        <div class="product-details-box-price">
+                            <p>Start From</p>
+                            <div>
+                                <h3>$ 15.00</h3>
+                                <p>/Kg</p>
+                            </div>
+                        </div>
+                        <div class="product-details-other-product">
+                            <h4>Other Product</h4>
+                            <div>
+                                <div class="product-details-mark-text">
+                                    <img width="20" height="20" src="public/images/fa-6-regular-circle-dot.png" alt="">
+                                    <h5>Turkey Meat</h5>
+                                </div>
+                                <div class="product-details-mark-text">
+                                    <img width="20" height="20" src="public/images/fa-6-regular-circle-dot.png" alt="">
+                                    <h5>Lamb Meat</h5>
+                                </div>
+                                <div class="product-details-mark-text">
+                                    <img width="20" height="20" src="public/images/fa-6-regular-circle-dot.png" alt="">
+                                    <h5>Venison Meat</h5>
+                                </div>
+                                <div class="product-details-mark-text">
+                                    <img width="20" height="20" src="public/images/fa-6-regular-circle-dot.png" alt="">
+                                    <h5>Horse Meat</h5>
+                                </div>
+                                <div class="product-details-mark-text">
+                                    <img width="20" height="20" src="public/images/fa-6-regular-circle-dot.png" alt="">
+                                    <h5>Fish Meat</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-details-best-seller">
+                            <h4>Best Seller Product</h4>
+                            <div>
+                                <img width="25" height="25" src="public/images/icon-like.png" alt="">
+                                <div>
+                                    <h4>Beef Ribs</h4>
+                                    <h4 style="color: #D9A273;">$ 25.00 / Kg</h4>
+                                </div>
+                            </div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="238" height="4" viewBox="0 0 238 4"
+                                fill="none">
+                                <line x1="-0.000976562" y1="2.01428" x2="238.001" y2="2.01428" stroke="#F2F2F2"
+                                    stroke-width="3" stroke-dasharray="4 4" />
+                            </svg>
+                            <div>
+                                <img width="25" height="25" src="public/images/icon-like.png" alt="">
+                                <div>
+                                    <h4>Turkey Wings</h4>
+                                    <h4 style="color: #D9A273;">$ 15.00 / Kg</h4>
+                                </div>
+                            </div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="238" height="4" viewBox="0 0 238 4"
+                                fill="none">
+                                <line x1="-0.000976562" y1="2.01428" x2="238.001" y2="2.01428" stroke="#F2F2F2"
+                                    stroke-width="3" stroke-dasharray="4 4" />
+                            </svg>
+                            <div>
+                                <img width="25" height="25" src="public/images/icon-like.png" alt="">
+                                <div>
+                                    <h4>Lamb Rack</h4>
+                                    <h4 style="color: #D9A273;">$ 30.00 / Kg</h4>
+                                </div>
+                            </div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="238" height="4" viewBox="0 0 238 4"
+                                fill="none">
+                                <line x1="-0.000976562" y1="2.01428" x2="238.001" y2="2.01428" stroke="#F2F2F2"
+                                    stroke-width="3" stroke-dasharray="4 4" />
+                            </svg>
+                            <div>
+                                <img width="25" height="25" src="public/images/icon-like.png" alt="">
+                                <div>
+                                    <h4>Venison Loin</h4>
+                                    <h4 style="color: #D9A273;">$ 20.00 / Kg</h4>
+                                </div>
+                            </div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="238" height="4" viewBox="0 0 238 4"
+                                fill="none">
+                                <line x1="-0.000976562" y1="2.01428" x2="238.001" y2="2.01428" stroke="#F2F2F2"
+                                    stroke-width="3" stroke-dasharray="4 4" />
+                            </svg>
+                        </div>
+                        <div class="product-details-we-provide">
+                            <h4>We Provide Fresh Meat Every Day</h4>
+                            <a class="button-red" href="#">DISCOVER MORE</a>
+                        </div>
+                        <div class="product-details-follow-us">
+                            <h4>Follow Us On</h4>
+                            <div>
+                                <img width="15" height="15" src="public/images/ic-outline-facebook.png" alt="">
+                                <img width="15" height="15" src="public/images/ri-twitter-fill.png" alt="">
+                                <img width="15" height="15" src="public/images/mdi-instagram.png" alt="">
+                                <img width="15" height="15" src="public/images/mdi-youtube.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <img width="300" height="241" src="public/images/goodmeat-logo-footer.png" alt="">
+            <div class="footer-container-blocks">
+                <div class="footer-container-block">
+                    <h5>Quick Links</h5>
+                    <div class="footer-link">
+                        <img width="20" height="20" src="public/images/icon-footer.png" alt="">
+                        <a href="/index.html" target="_self">
+                            <p>Home</p>
+                        </a>
+                    </div>
+                    <div class="footer-link">
+                        <img width="20" height="20" src="public/images/icon-footer.png" alt="">
+                        <a href="/about-us.html" target="_self">
+                            <p>About Us</p>
+                        </a>
+                    </div>
+                    <div class="footer-link">
+                        <img width="20" height="20" src="public/images/icon-footer.png" alt="">
+                        <a href="/our-product.html" target="_self">
+                            <p>Product</p>
+                        </a>
+                    </div>
+                    <div class="footer-link">
+                        <img width="20" height="20" src="public/images/icon-footer.png" alt="">
+                        <a href="/our-package.html" target="_self">
+                            <p>Package</p>
+                        </a>
+                    </div>
+                    <div class="footer-link">
+                        <img width="20" height="20" src="public/images/icon-footer.png" alt="">
+                        <a href="/our-blog.html" target="_self">
+                            <p>Blog</p>
+                        </a>
+                    </div>
+                    <div class="footer-link">
+                        <img width="20" height="20" src="public/images/icon-footer.png" alt="">
+                        <a href="/contact-us.html" target="_self">
+                            <p>Contact Us</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-container-block">
+                    <h5>Product</h5>
+                    <div class="footer-link">
+                        <img width="20" height="20" src="public/images/icon-footer.png" alt="">
+                        <a href="#" target="_self">
+                            <p>Beef Meat</p>
+                        </a>
+                    </div>
+                    <div class="footer-link">
+                        <img width="20" height="20" src="public/images/icon-footer.png" alt="">
+                        <a href="#" target="_self">
+                            <p>Turkey Meat</p>
+                        </a>
+                    </div>
+                    <div class="footer-link">
+                        <img width="20" height="20" src="public/images/icon-footer.png" alt="">
+                        <a href="#" target="_self">
+                            <p>Lamb Meat</p>
+                        </a>
+                    </div>
+                    <div class="footer-link">
+                        <img width="20" height="20" src="public/images/icon-footer.png" alt="">
+                        <a href="#" target="_self">
+                            <p>Venison Meat</p>
+                        </a>
+                    </div>
+                    <div class="footer-link">
+                        <img width="20" height="20" src="public/images/icon-footer.png" alt="">
+                        <a href="#" target="_self">
+                            <p>Horse Meat</p>
+                        </a>
+                    </div>
+                    <div class="footer-link">
+                        <img width="20" height="20" src="public/images/icon-footer.png" alt="">
+                        <a href="#" target="_self">
+                            <p>Fish Meat</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-information">
+                <h5>Information</h5>
+                <div class="footer-information-link">
+                    <img width="30" height="30" src="public/images/ph-phone-call.png" alt="">
+                    <span class="menu">+123-234-1234</span>
+                </div>
+                <div class="footer-information-link">
+                    <img width="30" height="30" src="public/images/envelope.png" alt="">
+                    <span class="menu">hello@awesomesite.com</span>
+                </div>
+                <div class="footer-information-link">
+                    <img width="30" height="30" src="public/images/mdi-map-marker-radius.png" alt="">
+                    <span class="menu">99 Roving St., Big City, PKU 23456</span>
+                </div>
+                <h5 style="padding-top: 32px;">Follow Us On :</h5>
+                <div class="icons-social-media-footer">
+                    <a href="https://www.facebook.com/" target="_blank">
+                        <img class="icons-social-media-menu" width="15" height="15"
+                            src="public/images/ic-outline-facebook.png" alt="Icone do Facebook">
+                    </a>
+                    <a href="https://twitter.com/" target="_blank">
+                        <img class="icons-social-media-menu" width="15" height="15"
+                            src="public/images/ri-twitter-fill.png" alt="Icone do Twitter">
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank">
+                        <img class="icons-social-media-menu" width="15" height="15"
+                            src="public/images/mdi-instagram.png" alt="Icone do Instagram">
+                    </a>
+                    <a href="https://www.youtube.com/" target="_blank">
+                        <img class="icons-social-media-menu" width="15" height="15" src="public/images/mdi-youtube.png"
+                            alt="Icone do Youtube">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <span class="menu">Copyright 2022 © All Right Reserved Design by Rometheme</span>
+        </div>
+    </footer>
+</body>
+
+</html>
